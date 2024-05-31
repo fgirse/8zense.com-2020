@@ -1,5 +1,5 @@
 {
-    "name": "8zensom2020",
+    "name": "8Zense2020",
     "version": "0.1.0",
     "private": true,
     "scripts": {
@@ -14,7 +14,8 @@
     "engines": {
       "node": ">=18.0.0"
     },
-    "dependencies": {
+    "require":
+     {
       "@ant-design/cssinjs": "^1.19.1",
       "@ant-design/nextjs-registry": "^1.0.0",
       "@clerk/backend": "^1.2.1",
@@ -97,9 +98,11 @@
       "three": "^0.161.0",
       "uploadthing": "^6.3.1",
       "zod": "^3.22.4"
-    },
-    "devDependencies": {
-      "@babel/core": "7.2.0",
+     },
+      "require":
+    
+     {    
+    "@babel/core": "7.2.0",
       "@types/node": "^20",
       "@types/react": "^18",
       "@types/react-dom": "^18",
@@ -117,4 +120,4 @@
       "import": "./es6entry.mjs",
       "require": "./es5entry.cjs"
     }
-  }
+  
